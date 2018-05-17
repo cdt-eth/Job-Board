@@ -69,6 +69,7 @@ gem 'carrierwave', '~> 1.0'
 gem 'mini_magick', '~> 4.8'
 gem 'stripe', '~> 3.11'
 gem 'trix'
+gem 'figaro'
 group :development, :test do
   gem 'better_errors'
   gem 'guard'
