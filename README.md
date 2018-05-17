@@ -1,25 +1,36 @@
-# README
+<div align="center">
+<h1>Job Board</h1>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<a href="https://www.emojione.com/emoji/1f468-1f4bb">
+<img height="80" width="80" alt="palette" src="https://user-images.githubusercontent.com/26611339/40150044-55ba9a9a-5945-11e8-89f6-3d16a8ac364e.png" />
+</a>
 
-Things you may want to cover:
+<p> A Job Board built with Rails. </p>
+</div>
 
-* Ruby version
+<hr />
 
-* System dependencies
 
-* Configuration
+[![GitHub followers](https://img.shields.io/github/followers/christiandavidturner.svg?style=social&label=Follow)](http://github.com/christiandavidturner) [![Twitter Follow](https://img.shields.io/twitter/follow/imcdt.svg?style=social&label=Follow)](https://twitter.com/imcdt)
 
-* Database creation
 
-* Database initialization
+## Table of Contents
 
-* How to run the test suite
+* [Overview](#overview)
+* [Tools](#tools)
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+# Overview
 
-* ...
-# Job-Board
+A Job Board built with Rails. Bulma was the framework I used for styling, and Devise was implemented for user authentication. I deployed the final project to Heroku. You can see the final project [here](#).
+
+
+# Tools
+
+- Rails
+- SQLite 3
+- Postgres
+- Bulma
+- Devise
+- Simple Form
+- Heroku
