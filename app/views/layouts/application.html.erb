@@ -41,6 +41,9 @@
         <div class="navbar-end">
           <div class="navbar-item">
             <div class="field is-grouped">
+            <p class="control">
+             <%= link_to "Post Job", new_job_path, class: "navbar-item button is-primary is-rounded" %>
+            </p>
             <% if user_signed_in? %>
 
               <div class="navbar-item has-dropdown is-hoverable">
