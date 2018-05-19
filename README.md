@@ -30,6 +30,7 @@ A Job Board built with Rails. Bulma was the framework I used for styling, and De
 - Rails
 - SQLite 3
 - Postgres
+- Stripe API
 - Bulma
 - Devise
 - Simple Form
