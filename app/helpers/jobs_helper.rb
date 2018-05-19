@@ -14,6 +14,6 @@ module JobsHelper
   end
 
   def job_author(job)
-    user_signed_in? && curent_user.id == job.user_id
+    user_signed_in? && current_user.id == job.user_id
   end
 end
