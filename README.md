@@ -22,7 +22,7 @@
 
 # Overview
 
-A Job Board built with Rails. Bulma was the framework I used for styling, and Devise was implemented for user authentication. I deployed the final project to Heroku. You can see the final project [here](#).
+A Job Board built with Rails. Bulma was the framework I used for styling, and Devise was implemented for user authentication. I deployed the final project to Heroku. You can see the final project [here](https://rails-job-board.herokuapp.com/).
 
 
 # Tools
