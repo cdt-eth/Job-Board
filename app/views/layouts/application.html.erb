@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= Rails.configuration.application_name %></title>
+    <title> Job Board </title>
     <%= csrf_meta_tags %>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,6 +10,7 @@
       <%= javascript_include_tag 'application', "https://js.stripe.com/v2/", "https://js.stripe.com/v3/", 'data-turbolinks-track': 'reload' %>
 
     <%= tag :meta, name: "stripe-public-key", content: Figaro.env.stripe_publishable_key %>
+    <%= favicon_link_tag asset_path('job-search.png'), :rel => 'icon', :type =>  'image/png' %>
   </head>
 
   <body class="<%= yield (:body_class) %>">
