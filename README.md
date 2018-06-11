@@ -10,20 +10,16 @@
 
 <hr />
 
-
 [![GitHub followers](https://img.shields.io/github/followers/christiandavidturner.svg?style=social&label=Follow)](http://github.com/christiandavidturner) [![Twitter Follow](https://img.shields.io/twitter/follow/imcdt.svg?style=social&label=Follow)](https://twitter.com/imcdt)
-
 
 ## Table of Contents
 
-* [Overview](#overview)
-* [Tools](#tools)
-
+- [Overview](#overview)
+- [Tools](#tools)
 
 # Overview
 
-A Job Board built with Rails. Bulma was the framework I used for styling, and Devise was implemented for user authentication. I deployed the final project to Heroku. You can see the final project [here](https://rails-job-board.herokuapp.com/).
-
+A Job Board built with Rails. Bulma was the framework I used for styling alone with Sass. Devise was implemented for user authentication. Users can create, edit, and delete job posts as well as filter the timeline by job type. I integrated the Stripe API for credit card authentication. I deployed the final project to Heroku. You can see the final project [here](https://rails-job-board.herokuapp.com/).
 
 # Tools
 
@@ -34,4 +30,5 @@ A Job Board built with Rails. Bulma was the framework I used for styling, and De
 - Bulma
 - Devise
 - Simple Form
+- Sass
 - Heroku
